@@ -115,7 +115,7 @@
         for (let i = 0; i < maxPredictions; i++) {
           if (
             drinks[i] === prediction[i].className &&
-            prediction[i].probability.toFixed(2) > 0.7
+            prediction[i].probability.toFixed(2) > 0.9
           ) {
             drink = drinks[i];
             speech(drink);
